@@ -34,28 +34,56 @@
 })(jQuery);
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides(slideIndex, 'myPESlides');
+showSlides(slideIndex, 'myESlides');
+showSlides(slideIndex, 'myLSlides');
+showSlides(slideIndex, 'myRoomsSlides');
+showSlides(slideIndex, 'receptionSlides');
+showSlides(slideIndex, 'hotelSlides');
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusEPSlides(n) {
+  showSlides(slideIndex += n, 'myPESlides');
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentEPSlide(n) {
+  showSlides(slideIndex = n, 'myPESlides');
 }
 
-function showSlides(n) {
+function plusESlides(n) {
+  showSlides(slideIndex += n, 'myESlides');
+}
+
+function currentESlide(n) {
+  showSlides(slideIndex = n, 'myESlides');
+}
+
+function plusLSlides(n) {
+  showSlides(slideIndex += n, 'myLSlides');
+}
+
+function currentLSlide(n) {
+  showSlides(slideIndex = n, 'myLSlides');
+}
+
+function plusRoomsSlides(n) {
+  showSlides(slideIndex += n, 'myRoomsSlides');
+}
+
+function plusReceptionSlides(n) {
+  showSlides(slideIndex += n, 'receptionSlides');
+}
+
+function plusHotelSlides(n) {
+  showSlides(slideIndex += n, 'hotelSlides');
+}
+
+function showSlides(n, targetName) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+  var slides = document.getElementsByClassName(targetName);
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
 }

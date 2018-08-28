@@ -1,12 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Miniport by HTML5 UP</title>
+		<title>Red Carpet Hotel</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,183 +10,204 @@
 
 		<!-- Nav -->
 			<nav id="nav">
-				<ul class="container">
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="menu-icon home-menu-icon">
+          <div class="hamburger-icon icon-1"></div>
+          <div class="hamburger-icon icon-2"></div>
+          <div class="hamburger-icon icon-3"></div>
+        </label>
+				<ul class="container nav__menu">
 					<li><a href="#top">Home</a></li>
-					<li><a href="#work">Rooms Categories</a></li>
-					<li><a href="#portfolio">Gallery</a></li>
+					<li><a href="#rooms">Rooms Categories</a></li>
+					<li><a href="#gallery">Gallery</a></li>
           <li><a href="#attractions">Attractions</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 
 		<!-- Home -->
-			<article id="top" class="wrapper style1">
+			<article id="top" class="wrapper style2">
 				<div class="container">
+          <div class="row">
+            <div class="col-12 col-12-large col-12-medium">
+              <span class="fit"><img src="images/hotel.jpg" alt="" style="width: 58%;"/></span>
+            </div>
+          </div>
 					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/hotel.jpg" alt="" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
+						<div class="col-12 col-12-large col-12-medium" style="margin-top: 30px">
 							<header>
-								<h1><strong>Red Carpet Hotel</strong></h1>
+								<h1 style="text-align: center;"><strong>Red Carpet Hotel</strong></h1>
 							</header>
-							<p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license">CCA license</a>.</p>
-							<a href="#work" class="button large scrolly">Learn about what I do</a>
+							<p>Hotel Red carpet is located in the foot hills of the dhauladhar range in the nature's lap of Kangra Valley. The hotel is situated near by Gyuto Monastery ( karmapa Monastry) surrounded by greenry and small streams.  It is well connected with the road network of state highway and very easily accessible .
+Red carpet Hotel has luxury rooms with individual balconies, all modern facilities, banquet hall, restraunt, lift, excellent food and different cuisines like Indian, Chinese, Tandoor,  Continental,  South Indian,  Thai food.
+Hotel is situated at 12 km from Gaggal Airport, 5 km from Dharamshala ISBT Bust stand, 12 km from Macleodganj, 6km from Chamunda devi, 83 km from Pathankot Railway Station, 15 km from Kangra,  and just walkable distance to Norbulingka Tibetam Institute, Gyuto Monastery (Karmapa Monastry), Vidhan Sabha and Chinmaya Tapovan Ashram.</p>
+							<a href="#rooms" class="button large scrolly">See Rooms</a>
 						</div>
 					</div>
 				</div>
 			</article>
 
-      <article id="work" class="wrapper style2">
+      <article id="rooms" class="wrapper style2">
         <div class="container">
           <header>
             <h2>Rooms Categories</h2>
-            <p>Odio turpis amet sed consequat eget posuere consequat.</p>
           </header>
           <div class="row aln-center">
             <div class="col-4 col-6-medium col-12-small">
-              <article class="box style2">
+              <article class="box style2 room-cont">
                 <div class="image featured">
                   <div class="slideshow-container">
 
-                    <div class="mySlides fade">
-                      <img src="/images/p-executive.jpg" style="width:100%">
-                      <div class="text">Caption Text</div>
+                    <div class="myPESlides mySlides fade">
+                      <img src="/images/p-executive.jpg" style="width:100%; height: 255px">
                     </div>
 
-                    <div class="mySlides fade">
-                      <img src="/images/executive.jpg" style="width:100%">
-                      <div class="text">Caption Two</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                      <img src="/images/p-executive.jpg" style="width:100%">
-                      <div class="text">Caption Three</div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <a class="prev" onclick="plusEPSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusEPSlides(1)">&#10095;</a>
 
                   </div>
                 </div>
                 <!-- <a href="#" class="image featured"><img src="/images/p-executive.jpg" alt="" /></a> -->
                 <h3><a href="#">Executive Premium Room</a></h3>
-                <p>Ornare nulla proin odio consequat</p>
+                <p>Get comfortable and indulge yourself in the executive premium room.  The rooms offer great view from balcony and more spacious with modern amenities like Wi-Fi, flat screen 43" led Tv, separate seating and complimentary bottled water.</p>
               </article>
             </div>
             <div class="col-4 col-6-medium col-12-small">
-              <article class="box style2">
-                <a href="#" class="image featured"><img src="/images/executive.jpg" alt="" /></a>
+              <article class="box style2 room-cont">
+                <div class="image featured">
+                  <div class="slideshow-container">
+                    <div class="myESlides mySlides fade">
+                      <img src="/images/executive.jpg" style="width:100%; height: 255px">
+                    </div>
+                    <a class="prev" onclick="plusESlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusESlides(1)">&#10095;</a>
+
+                  </div>
+                </div>
                 <h3><a href="#">Executive Room</a></h3>
-                <p>Ornare nulla proin odio consequat.</p>
+                <p>One of the most luxrious and well equipped categories,  you cqn relax next to the window and the balcony looking directly at the valley from the same,  in your elegantly and smartly designed living space.</p>
               </article>
             </div>
             <div class="col-4 col-6-medium col-12-small">
-              <article class="box style2">
-                <a href="#" class="image featured"><img src="/images/luxury.jpg" alt="" /></a>
+              <article class="box style2 room-cont">
+                <div class="image featured">
+                  <div class="slideshow-container">
+                    <div class="myLSlides mySlides fade">
+                      <img src="/images/luxury.jpg" style="width:100%; height: 255px;">
+                    </div>
+                    <a class="prev" onclick="plusLSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusLSlides(1)">&#10095;</a>
+
+                  </div>
+                </div>
                 <h3><a href="#">Luxury Room</a></h3>
-                <p>Ornare nulla proin odio consequat.</p>
+                <p>These rooms are with sun kissed beautifully balcony. A unique blend of elegance,  contemporary design and attention to detail are the rooms are the perfect choice for a discerning business or leisure traveler.</p>
               </article>
             </div>
           </div>
           <footer>
-            <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-            <a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+            <a href="#gallery" class="button large scrolly">See Gallery</a>
           </footer>
         </div>
       </article>
 
-		<!-- Work -->
-			<!-- <article id="work" class="wrapper style2">
+			<article id="gallery" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Rooms Categories</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-              <article class="box style2">
-                <a href="#" class="image featured"><img src="/images/p-executive.jpg" alt="" /></a>
-                <h3><a href="#">Executive Premium Room</a></h3>
-                <p>Ornare nulla proin odio consequat</p>
-              </article>
-            </div>
-            <div class="col-4 col-6-medium col-12-small">
-              <article class="box style2">
-                <a href="#" class="image featured"><img src="/images/executive.jpg" alt="" /></a>
-                <h3><a href="#">Executive Room</a></h3>
-                <p>Ornare nulla proin odio consequat.</p>
-              </article>
-            </div>
-            <div class="col-4 col-6-medium col-12-small">
-              <article class="box style2">
-                <a href="#" class="image featured"><img src="/images/luxury.jpg" alt="" /></a>
-                <h3><a href="#">Luxury Room</a></h3>
-                <p>Ornare nulla proin odio consequat.</p>
-              </article>
-            </div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-					</footer>
-				</div>
-			</article> -->
-
-		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Here’s some stuff I made recently.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+						<h2>Gallery</h2>
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
+                <div class="image featured">
+                  <div class="slideshow-container">
+                    <div class="receptionSlides mySlides fade">
+                      <img src="/images/banquetHall.jpg" style="width:100%; height: 270px">
+                    </div>
+
+                    <div class="receptionSlides mySlides fade">
+                      <img src="/images/reception1.jpg" style="width:100%; height: 270px">
+                    </div>
+
+                    <div class="receptionSlides mySlides fade">
+                      <img src="/images/washroom.jpg" style="width:100%; height: 270px;">
+                    </div>
+
+                    <div class="receptionSlides mySlides fade">
+                      <img src="/images/washroom3.jpg" style="width:100%; height: 270px;">
+                    </div>
+                     <div class="receptionSlides mySlides fade">
+                      <img src="/images/washroom2.jpg" style="width:100%; height: 270px;">
+                    </div>
+
+                    <a class="prev" onclick="plusReceptionSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusReceptionSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+                <h3><a href="#">Exterior Interior pictures</a></h3>
+              </article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Veroeros primis</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
+                <div class="image featured">
+                  <div class="slideshow-container">
+                    <div class="myRoomsSlides mySlides fade">
+                      <img src="/images/p-executive.jpg" style="width:100%; height: 270px">
+                    </div>
+
+                    <div class="myRoomsSlides mySlides fade">
+                      <img src="/images/executive.jpg" style="width:100%; height: 270px">
+                    </div>
+
+                    <div class="myRoomsSlides mySlides fade">
+                      <img src="/images/luxury.jpg" style="width:100%; height: 270px;">
+                    </div>
+
+                    <a class="prev" onclick="plusRoomsSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusRoomsSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+                <h3><a href="#">Rooms pictures</a></h3>
+              </article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
+                <div class="image featured">
+                  <div class="slideshow-container">
+                    <div class="hotelSlides mySlides fade">
+                      <img src="/images/restaurant3.jpg" style="width:100%; height: 270px">
+                    </div>
+
+                    <div class="hotelSlides mySlides fade">
+                      <img src="/images/Untitled-2.jpg" style="width:100%; height: 270px">
+                    </div>
+
+                    <div class="hotelSlides mySlides fade">
+                      <img src="/images/rastaurant2.jpg" style="width:100%; height: 270px;">
+                    </div>
+
+                    <div class="hotelSlides mySlides fade">
+                      <img src="/images/restaurant.jpg" style="width:100%; height: 270px;">
+                    </div>
+
+                    <div class="hotelSlides mySlides fade">
+                      <img src="/images/hotel3.jpg" style="width:100%; height: 270px;">
+                    </div>
+
+                    <div class="hotelSlides mySlides fade">
+                      <img src="/images/lift.jpg" style="width:100%; height: 270px;">
+                    </div>
+
+                    <a class="prev" onclick="plusHotelSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusHotelSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+                <h3><a href="#">Hotel pictures</a></h3>
+              </article>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+						<a href="#attractions" class="button large scrolly">See near by places</a>
 					</footer>
 				</div>
 			</article>
@@ -200,56 +216,60 @@
     <article id="attractions" class="wrapper style3">
       <div class="container">
         <header>
-          <h2>Here’s some stuff I made recently.</h2>
-          <p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+          <h2>Neary Places</h2>
         </header>
         <div class="row">
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-              <h3><a href="#">Magna feugiat</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <a href="https://en.wikipedia.org/wiki/Chamunda" class="image featured"><img src="images/chamunda.jpg" alt="" style="height: 288px"/></a>
+              <h3><a href="https://en.wikipedia.org/wiki/Chamunda">Chamunda Devi Temple (6 KM)</a></h3>
             </article>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-              <h3><a href="#">Veroeros primis</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <a href="https://en.wikipedia.org/wiki/Sidhbari" class="image featured"><img src="images/chinmaya.jpg" alt="" style="height: 288px" /></a>
+              <h3><a href="https://en.wikipedia.org/wiki/Sidhbari">Chinmaya Ashram (1.5 KM)</a></h3>
             </article>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-              <h3><a href="#">Lorem ipsum</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <a href="https://en.wikipedia.org/wiki/Dharamshala" class="image featured"><img src="images/karmapa.jpeg" alt="" style="height: 288px" /></a>
+              <h3><a href="https://en.wikipedia.org/wiki/Dharamshala">Karmapa Monastery (0.5 KM)</a></h3>
             </article>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-              <h3><a href="#">Tempus dolore</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <a href="https://en.wikipedia.org/wiki/Himachal_Pradesh_Cricket_Association_Stadium" class="image featured"><img src="images/stadium.jpg" alt="" style="height: 288px"/></a>
+              <h3><a href="https://en.wikipedia.org/wiki/Himachal_Pradesh_Cricket_Association_Stadium">Dharamshala Stadium (5 KM)</a></h3>
             </article>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-              <h3><a href="#">Feugiat aliquam</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <a href="https://en.wikipedia.org/wiki/Dalai_Lama" class="image featured"><img src="images/dalailama.jpeg" alt="" style="height: 288px"/></a>
+              <h3><a href="https://en.wikipedia.org/wiki/Dalai_Lama">Dalai Lama Temple (9 KM)</a></h3>
             </article>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-              <h3><a href="#">Sed amet ornare</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <a href="https://en.wikipedia.org/wiki/Dal_Lake_(Himachal_Pradesh)" class="image featured"><img src="images/dallake.jpg" alt="" style="height: 288px"/></a>
+              <h3><a href="https://en.wikipedia.org/wiki/Dal_Lake_(Himachal_Pradesh)">Dal Lake (12)</a></h3>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="https://en.wikipedia.org/wiki/McLeod_Ganj" class="image featured"><img src="images/bhagsu.jpg" alt="" style="height: 288px"/></a>
+              <h3><a href="https://en.wikipedia.org/wiki/McLeod_Ganj">Bhagsu Waterfall (11 KM)</a></h3>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="https://paraglidingindharamshala.wordpress.com/" class="image featured"><img src="images/indrunag.jpg" alt="" style="height: 288px"/></a>
+              <h3><a href="https://paraglidingindharamshala.wordpress.com/">Indrunag Paragliding (6 KM)</a></h3>
             </article>
           </div>
         </div>
         <footer>
-          <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-          <a href="#contact" class="button large scrolly">Get in touch with me</a>
+          <a href="#contact" class="button large scrolly">Get in touch</a>
         </footer>
       </div>
     </article>
@@ -258,8 +278,7 @@
 			<article id="contact" class="wrapper style4">
 				<div class="container medium">
 					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+						<h2>Contact Us</h2>
 					</header>
 					<div class="row">
 						<div class="col-12">
@@ -297,24 +316,13 @@
 								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
 								<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-								<!--
-								<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-								-->
 							</ul>
 							<hr />
 						</div>
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>Email: redcarpetdharamshala@gmail.com  Phone: 7018281925</li>
 						</ul>
 					</footer>
 				</div>
